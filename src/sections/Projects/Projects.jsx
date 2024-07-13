@@ -9,28 +9,28 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={crypto}
-          link="https://github.com/aniketpethe07/Crypto-Market"
+          // link="https://github.com/aniketpethe07/Crypto-Market"
           h3="Crypto-Market"
           p="Paper Trading App"
         />
         <ProjectCard
           src={crypto}
-          link="https://github.com/aniketpethe07/Book-Store"
+          // link="https://github.com/aniketpethe07/Book-Store"
           h3="Book-Store"
           p="Hamburger Restaurant"
           />
         <ProjectCard
           src={crypto}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          // link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Tomato"
+          p="Food Delivery Website"
           />
-        <ProjectCard
+        {/* <ProjectCard
           src={crypto}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );
