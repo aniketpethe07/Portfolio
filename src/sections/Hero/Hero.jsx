@@ -14,13 +14,10 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h2 style={{textTransform: 'none'}}>
-          Hello!
-          <br />
-          Aniket Pethe
+          Hello! I'm Aniket
         </h2>
         <p className={styles.description}>
-          With a passion for developing modern web apps for commercial
-          businesses.
+          A Tech Enthusiast and Developer Committed to Learning, Growing, and Creating Impactful Digital Experiences
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

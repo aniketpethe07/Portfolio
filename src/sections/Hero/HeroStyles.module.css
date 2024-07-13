@@ -75,7 +75,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Reduced gap */
+  gap: 15px; 
 }
 
 @media (min-width: 800px) {
