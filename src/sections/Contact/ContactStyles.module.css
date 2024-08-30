@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Optional: Style the paragraph text */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: var(--form-text-color); /* or any color that matches your theme */
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  p {
+    font-size: 22px;
+  }
+}
